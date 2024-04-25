@@ -25,7 +25,37 @@ display: block;
 #main_menu{
     list-style: none;
     text-align: center;
+    margin-top: 10px;
 }
 #main_menu li{
     display: inline-block;
+    margin: 0 10px;
+}
+#main_menu li a{
+    background: red;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+section{
+    background: burlywood;
+    display: flex;
+}
+div{
+    padding: 20px;
+    
+    width: 60%;
+}
+aside{
+ padding: 20px;
+ width: 40%;
+}
+aside ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+footer{
+    background: gainsboro;
+    padding: 20px;
+    text-align: center;
 }
